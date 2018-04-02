@@ -1,0 +1,134 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+
+section.section-padding {
+    padding:  80px;
+}
+
+.section-title {
+    text-align:  center;
+    margin-bottom:  50px;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    color: #333;
+}
+
+.section-title h2 span {
+    color: #23A55C;
+}
+
+p {
+    font-size: 14px;
+}
+
+.single-pricing-box {
+    border:  1px solid #D5DCD8;
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.single-pricing-box h3 {
+	margin-bottom:30px;
+    text-transform:  uppercase;
+}
+
+i.fa.fa-star {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+i.fa.fa-star:hover {
+    color: #20A45D;
+}
+
+.single-pricing-box:hover{
+    border-color:  #20A45D;
+    box-shadow: 0 0 50px #fbeeee;
+}
+.single-pricing-box:hover .pricing-icon {
+    color: #1DA35E;
+}
+.pricing-icon , .pricing-icon img{
+	-webkit-transition: .3s;
+	transition:.3s;
+}
+.single-pricing-box:hover .pricing-icon img{
+	Opacity:.7;
+}
+.pricing-list {
+    text-align:  left;
+    margin-bottom: 23px;
+}
+
+.pricing-list ul {
+    list-style:  none;
+    margin:  0;
+    padding:  0;
+    padding-left: 20px;
+    line-height: 28px;
+}
+.pricing-list ul li:hover {
+    padding-left: 5px;
+}
+.pricing-list ul li {
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.pricing-list ul li:before {font-family:fontAwesome; content:"\f00c"; color:#18A15F;     padding-right: 10px;}
+.pricing-list ul li.off:before {content:"\f00d";color:#FF0000}
+.single-pricing-box h3.pricing-count {
+    text-transform:  none;
+}
+
+a.bordered-btn:hover{
+	background-color:#1DA35E;
+	color:#fff;
+}
+a.bordered-btn {
+    border:  1px solid  #20A45D;
+    display:  inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #333;
+    -webkit-transition: 0.3s;
+    transition:  0.3s;
+}
+
+
+
+
